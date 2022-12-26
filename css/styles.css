@@ -8,9 +8,8 @@
 }
 
 .container{
-    width: 1440px;
-    margin: 0;
-    display: flex;
+    width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -134,21 +133,15 @@ color: #4D5AE5;
 
 .hero{
     background: var(--main-color);   
-    display: flex;
 flex-direction: column;
-padding-top: 188px;
-padding-left: 473px;
-padding-right: 473px;
-padding-bottom: 188px;
- 
+height: 600px;
+
 }
 .title{
 font-weight: 500;
 font-size: 56px;
 line-height: 1.07;
 margin-bottom: 48px; 
-/* or 107% */
-
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -160,7 +153,8 @@ color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-   
+   display: block;
+   margin: 0 auto;
     letter-spacing: 0.04em;
 color: #FFFFFF;
 
