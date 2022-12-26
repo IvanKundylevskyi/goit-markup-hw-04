@@ -19,6 +19,11 @@
 
 }
 
+.header-navigation-logo{
+    display: flex;
+    align-items: center;
+}
+
 .header-contacts{
     margin-left: 332px;
     display: flex;
@@ -204,8 +209,9 @@ margin-bottom: 72px;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-justify-content: space-around;
+justify-content: center;
 color: var(--main-color);
+padding-top: 120px;
 }
 .hero-subtitle{
 font-weight: 500;
@@ -244,6 +250,7 @@ display: flex;
 padding-left: 156px;
 padding-right: 156px;
 gap: 24px;  
+padding-bottom: 120px;
 }
 
 .footer{
@@ -254,8 +261,8 @@ gap: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
-    
+    padding-left: 156px;
+    padding-bottom: 100px;
     letter-spacing: 0.02em;
     color: #E7E9FC;   
 }
@@ -293,6 +300,15 @@ gap: 24px;
     
     cursor: pointer;
 }
+
+.portfolio-btn-section{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 96px;
+    margin-bottom: 72px;
+}
+
 
 .portfolio-main{
     color: #E5E5E5;;
@@ -337,7 +353,9 @@ color: #434455;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-/* identical to box height, or 133% */
+padding-left: 156px;
+padding-top: 120px;
+margin-bottom: 16px;
 
 display: flex;
 align-items: center;
@@ -353,4 +371,13 @@ color: #4D5AE5;
 
 color: #F4F4FD;
 
+}
+
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 24px;
+    padding-bottom: 120px;
 }
