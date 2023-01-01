@@ -11,13 +11,17 @@
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
+ 
 }
 
 .header-navigation{
     display: flex;
     gap: 40px;
 
+}
+
+.header-container{
+    display: flex;
 }
 
 .header-navigation-logo{
@@ -141,13 +145,19 @@ color: #4D5AE5;
 }
 
 .hero{
-    background: var(--main-color);   
+
 flex-direction: column;
-height: 600px;
-padding-bottom: 188px;
-padding-top: 188px;
+
 
 }
+
+.hero-section{
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background: var(--main-color); 
+    height: 600px;
+}
+
 .title{
 font-weight: 500;
 font-size: 56px;
@@ -181,8 +191,11 @@ padding-top: 120px;
 .wrap{
 display: flex;
 gap: 24px;
+}
 
 
+.wrap-text{
+    width: 264px;
 }
 
 .about-title{
@@ -213,6 +226,7 @@ color: #434455;
 
 .under-title{
 padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .hero-title{
@@ -232,7 +246,6 @@ color: var(--main-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-margin-top: 32px;
 
 text-align: center;
 letter-spacing: 0.02em;
@@ -242,15 +255,12 @@ color: var(--main-color);
 .img-wrap{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .after_subtitle{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 margin-top: 8px;
-padding-bottom: 32px;
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -273,11 +283,13 @@ gap: 24px;
 }
 
 .footer{
-    background: var(--main-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    display: block;
+    background: var(--main-color);
+    
 }
+
+
 
 .footer-ending{
     font-weight: 400;
@@ -327,7 +339,7 @@ gap: 24px;
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 
@@ -354,8 +366,7 @@ color: var(--main-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
-
+margin-top: 8px;
 letter-spacing: 0.02em;
 
 /* SLATE */
