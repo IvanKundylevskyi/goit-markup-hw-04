@@ -410,7 +410,6 @@ color: #F4F4FD;
     padding-left: 16px;
     padding-bottom: 32px;
     border: 1px solid #E7E9FC;
- 
 }
 
 .portfolio-list{
@@ -418,6 +417,10 @@ color: #F4F4FD;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 24px;
+}
+
+.portfolio-gap{
+    margin-bottom: 24px;
 }
 
 .portfolio-img{
