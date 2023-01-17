@@ -428,15 +428,21 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #4D5AE5;
+    
 }
 
-.test-link:hover{
-    border-color: #4D5AE5;
+.customers-icon{
+    color: currentColor;
 }
 
-.test-link:hover .customers-icon {
-    fill: #4D5AE5;
+.test-link:hover,
+.test-link:focus {
+   border-color: #4D5AE5;
+    color: #4D5AE5;
+
 }
+
 
 .footer-soc-container{
     margin-left: 120px;
