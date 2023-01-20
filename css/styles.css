@@ -125,7 +125,7 @@ color: #4D5AE5;
 }
 
 .header-link:focus{
-    background-color: #4D5AE5;
+    color: #4D5AE5;
     }
 
 .header-logo:hover{
@@ -141,7 +141,7 @@ color: #4D5AE5;
 }
 
 .header-tel:focus{
-   background-color: #4D5AE5; 
+   color: #4D5AE5; 
 }
 
 .header-mail:hover
@@ -150,7 +150,7 @@ color: #4D5AE5;
 }
 
 .header-mail:focus{
-    background-color: #4D5AE5;
+    color: #4D5AE5;
 }
 
 .hero-info{
@@ -167,10 +167,7 @@ background: #31D0AA;
 
 
 .hero{
-
 flex-direction: column;
-
-
 }
 
 .goit-soc-list{
@@ -195,7 +192,10 @@ align-items: center;
 justify-content: center;
 }
 
-.goit-soc-link:hover,
+.goit-soc-link:hover{
+    background: #404BBF;
+}
+
 .goit-soc-link:focus{
     background: #404BBF;
 }
@@ -238,6 +238,14 @@ color: #FFFFFF;
     color: #FFFFFF;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
+}
+
+.hero-btn:hover{
+    background: #404BBF;
+}
+
+.hero-btn:focus{
+    background: #404BBF;
 }
 
 .section-wrap{
@@ -387,7 +395,6 @@ gap: 24px;
 }
 
 
-
 .test{
     padding-top: 130px;
     padding-bottom: 120px;
@@ -476,10 +483,12 @@ color: #2E2F42;
 
 .portfolio-btn:hover{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .portfolio-btn:focus{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .portfolio-btn-blue{
@@ -604,6 +613,12 @@ color: #FFFFFF;
 
 .portfolio-gap{
     margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.portfolio-gap:hover{
+
+box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
 }
 
 .portfolio-img{
