@@ -435,7 +435,7 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #8e8f99;
+    color: #8E8F99;
     
 }
 
@@ -447,7 +447,7 @@ color: #2E2F42;
 .test-link:hover,
 .test-link:focus {
    border-color: #4D5AE5;
-    color: #4D5AE5;
+    fill: #4D5AE5;
    
 }
 
@@ -481,12 +481,10 @@ color: #2E2F42;
     cursor: pointer;
 }
 
-.portfolio-btn:hover{
-    background-color: #404BBF;
-    color: #FFFFFF;
-}
 
-.portfolio-btn:focus{
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 }
