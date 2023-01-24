@@ -435,22 +435,30 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #8E8F99;
     
 }
 
 .customers-icon{
-    color: currentColor;
+    fill: #8E8F99;
     
 }
 
-.test-link:hover,
-.test-link:focus {
-   border-color: #4D5AE5;
+.test-link:focus .customers-icon {
+    fill: #4D5AE5;}
+
+.customers-icon:hover{
+    fill: #4D5AE5;
+}
+
+.test-link:hover .customers-icon {
     fill: #4D5AE5;
    
 }
 
+.test-link:hover{
+    border-color: #4D5AE5;
+    
+}
 
 .footer-soc-container{
     margin-left: 120px;
@@ -483,10 +491,16 @@ color: #2E2F42;
 
 
 
-.portfolio-btn:focus,
-.portfolio-btn:hover {
+.portfolio-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-btn:hover{
+    background-color: #404BBF;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-btn-blue{
@@ -547,12 +561,13 @@ color: #434455;
 }
 
 .portfolio-btn-blue:hover{
-    color: #4D5AE5;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
 }
 
-.portfolio-btn:hover{
-    color: #4D5AE5;
+.portfolio-btn-blue:focus{
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
 }
+
 
 .footer-logo{
     font-family: 'Raleway';
@@ -612,6 +627,14 @@ color: #FFFFFF;
 .portfolio-gap{
     margin-bottom: 24px;
     cursor: pointer;
+}
+
+.portfolio-gop{
+    cursor: pointer;
+}
+
+.portfolio-gop:hover{
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%); 
 }
 
 .portfolio-gap:hover{
