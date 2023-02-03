@@ -334,15 +334,29 @@
             </li>
         </ul>
     </div>
+    <div class="Subscribe-section">
+        <p class="footer-subtitle">Subscribe</p>
+        <form >
+            <input type="email" class="footer-subscribe" name="email" placeholder="E-mail">
+        </form>
+    </div>
     </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
+        <div class="modal container">
             <button type="button" data-modal-close class="modal-close">
                 <svg class="modal-close-svg" width="8px" height="8px" >
                     <use href="./img/icons.svg#icon-close"  ></use>
                 </svg>
             </button>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form >
+            <input type="text" class="modal-input" name="name" required>
+            <input type="tel" class="modal-input" name="phone" required>
+            <input type="email" class="modal-input" name="email" required>
+            <input type="text" class="modal-big-input" name="text" placeholder="Text input">
+        </form>  
+        <button type="submit" class="modal-btn">Send</button>  
         </div>
     </div>
     <script src="./js/modal.js"></script>
