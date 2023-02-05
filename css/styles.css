@@ -829,3 +829,39 @@ padding-left: 16px;
 
 
 }
+
+
+.user-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em; 
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.user-phone {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.user-email {
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: #8E8F99;
+margin-bottom: 4px;
+}
+
+.input-icon{
+    position: absolute;
+}
+
+.modal-field{
+    position: relative;
+}

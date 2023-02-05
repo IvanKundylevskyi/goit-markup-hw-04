@@ -351,9 +351,19 @@
             </button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
         <form >
+            <div class="modal-field">
+            <label class="user-name">Name</label>
             <input type="text" class="modal-input" name="name" required>
+            <svg class="input-icon" width="18px" height="18px">
+                <use href="./img/icons.svg#icon-person-black" width="18px" height="18px"></use>
+            </svg>
+        </div>
+            <label class="user-phone">Phone</label>
             <input type="tel" class="modal-input" name="phone" required>
+
+            <label class="user-email">Email</label>
             <input type="email" class="modal-input" name="email" required>
+
             <input type="text" class="modal-big-input" name="text" placeholder="Text input">
         </form>  
         <button type="submit" class="modal-btn">Send</button>  
